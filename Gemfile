@@ -25,7 +25,7 @@ gem "paranoia", "~> 2.0"
 gem "pg"
 gem "unicorn"
 
-gem "rails", "4.2.5.1"
+gem "rails", "5.2.8.1"
 gem "resque", "~> 1.25.0"
 gem "resque-scheduler"
 gem "resque-sentry"
