@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "active_model_serializers", "0.8.3"
-gem "administrate", ">= 0.1.3"
+gem "administrate", ">= 0.13.0"
 gem "analytics-ruby", "~> 2.0.0", require: "segment/analytics"
 gem "angular_rails_csrf"
 gem "angularjs-rails"
@@ -17,16 +17,16 @@ gem "haml-rails"
 gem "haml_lint"
 gem "high_voltage"
 gem "inifile"
-gem "jquery-rails", "~> 4.0.0"
+gem "jquery-rails", "~> 4.0.5"
 gem "neat"
 gem "octokit"
-gem "omniauth-github"
+gem "omniauth-github", ">= 2.0.0"
 gem "paranoia", "~> 2.0"
 gem "pg"
 gem "unicorn"
 
 gem "rails", "4.2.5.1"
-gem "resque", "~> 1.25.0"
+gem "resque", "~> 1.25.2"
 gem "resque-scheduler"
 gem "resque-sentry"
 gem "rest-client", ">= 1.8.0"
@@ -48,12 +48,12 @@ group :development, :test do
   gem "foreman"
   gem "jasmine-rails"
   gem "poltergeist"
-  gem "rspec-rails", ">= 3.4"
+  gem "rspec-rails", ">= 3.9.0"
   gem "bundler-audit", require: false
 end
 
 group :test do
-  gem "capybara", "~> 2.4.0"
+  gem "capybara", "~> 2.4.4"
   # gem "capybara-webkit", "~> 1.5.1"
   gem "database_cleaner"
   gem "factory_girl_rails"
