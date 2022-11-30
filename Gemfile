@@ -26,7 +26,7 @@ gem "pg"
 gem "unicorn"
 
 gem "rails", "4.2.5.1"
-gem "resque", "~> 1.25.0"
+gem "resque", "~> 1.25.2"
 gem "resque-scheduler"
 gem "resque-sentry"
 gem "rest-client", ">= 1.8.0"
