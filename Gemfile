@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "active_model_serializers", "0.8.3"
-gem "administrate", ">= 0.1.3"
+gem "administrate", ">= 0.13.0"
 gem "analytics-ruby", "~> 2.0.0", require: "segment/analytics"
 gem "angular_rails_csrf"
 gem "angularjs-rails"
@@ -12,20 +12,20 @@ gem "coffee-rails"
 gem "coffeelint"
 gem "email_validator"
 gem "faraday"
-gem "font-awesome-rails"
+gem "font-awesome-rails", ">= 4.7.0.6"
 gem "haml-rails"
 gem "haml_lint"
 gem "high_voltage"
 gem "inifile"
-gem "jquery-rails", "~> 4.0.0"
+gem "jquery-rails", "~> 4.1.1"
 gem "neat"
 gem "octokit"
 gem "omniauth-github"
-gem "paranoia", "~> 2.0"
+gem "paranoia", "~> 2.4", ">= 2.4.3"
 gem "pg"
 gem "unicorn"
 
-gem "rails", "4.2.5.1"
+gem "rails", "6.1.7.3"
 gem "resque", "~> 1.25.0"
 gem "resque-scheduler"
 gem "resque-sentry"
@@ -44,11 +44,11 @@ end
 
 group :development, :test do
   gem "byebug"
-  gem "dotenv-rails"
+  gem "dotenv-rails", ">= 2.7.6"
   gem "foreman"
   gem "jasmine-rails"
   gem "poltergeist"
-  gem "rspec-rails", ">= 3.4"
+  gem "rspec-rails", ">= 3.9.0"
   gem "bundler-audit", require: false
 end
 
