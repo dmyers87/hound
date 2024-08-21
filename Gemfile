@@ -27,7 +27,7 @@ gem "unicorn"
 
 gem "rails", "4.2.5.1"
 gem "resque", "~> 1.25.0"
-gem "resque-scheduler"
+gem "resque-scheduler", ">= 4.2.1"
 gem "resque-sentry"
 gem "rest-client", ">= 1.8.0"
 gem "rubocop", ">= 0.41.0"
